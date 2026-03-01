@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Night by Leira</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV -->
+
+  <nav class="nav">
+    <div class="logo">XV Valentina Leira</div>
+
+    <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="nav-links" id="nav-links">
+        <a href="#sobre">Sobre mí</a>
+        <a href="#info">Información</a>
+        <a href="#itinerario">Itinerario</a>
+        <a href="#asistencia">Asistencia</a>
+    </div>
+</nav>
+<script>
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+});
+</script>
+<!-- HERO -->
+<section class="hero">
+    
+    <!-- Imagen principal (Music Night by Leira) -->
+    <div class="music-container">
+        <img src="img/titulo.png" alt="Music Night" class="music-img">
+    </div>
+
+</section>
+
+<!-- EVENT INFO -->
+<div id="sobre">
+<section class="hero-xv">
+    <div class="hero-content">
+
+        <!-- Imagen Fecha -->
+        <div class="fecha-img">
+            <img src="img/fecha.png" alt="07 de Marzo 2026">
+        </div>
+
+        <!-- Imagen XV + Nombre -->
+        <div class="titulo-img">
+            <img src="img/XV.png" alt="XV Años Leira Valentina">
+        </div>
+
+        <p class="frase">Una noche. Un Escenario. Un recuerdo eterno.</p>
+
+    </div>
+</section>
+ <section class="gallery-container">
+  <!-- Tarjeta 1: Con Texto -->
+  <div class="gallery-card">
+    <div class="card-image">
+      <img src="img/2.png" alt="Leira Valentina">
+    </div>
+    <div class="card-footer">
+      <p class="quote">"No temo a la oscuridad de mi mente, temo a una vida donde no se piense, no se sienta, no se arda"</p>
+      <span class="author">LEIRA VALENTINA</span>
+    </div>
+  </div>
+
+  <!-- Tarjeta 2: Solo Imagen (Dinámica) -->
+  <div class="gallery-card only-image">
+    <div class="card-image full-height">
+      <img src="img/3.png" alt="Imagen Central">
+      <div class="overlay-effect"></div>
+    </div>
+  </div>
+
+  <!-- Tarjeta 3: Con Texto -->
+  <div class="gallery-card">
+    <div class="card-image">
+      <img src="img/4.png" alt="Edgar Allan Poe">
+    </div>
+    <div class="card-footer">
+      <p class="quote">"Me volví loco, con largos intervalos de horrible cordura"</p>
+      <span class="author">EDGAR ALLAN POE</span>
+    </div>
+  </div>
+</section>
+</div>
+<div id="info">
+<section class="event-info">
+    <div class="header-content">
+       <img src="img/titulo.png" class="music-img">
+    </div>
+
+    <div class="cards-container">
+        <!-- Tarjeta 1: Outfit -->
+        <div class="info-card">
+            <div class="icon-box">
+                <img src="img/d1.png" alt="Dress Code">
+            </div>
+            <h3>TU MEJOR OUTFIT</h3>
+            <p class="sub-label">DRESS CODE</p>
+            <div class="detail-tag">FORMAL BLACK <br><i style="font-weight:100; ">*Gama de guindos está reservado para la quinceañera*</i><br>
+                <img src="img/colors.png">
+            </div>
+        </div>
+
+        <!-- Tarjeta 2: Hora -->
+        <div class="info-card">
+            <div class="icon-box">
+                <img src="img/d2.png" alt="Party Time">
+            </div><br>
+            <h3>PARTY TIME</h3>
+            <p class="sub-label">Hora de Recepción</p>
+            <div class="detail-tag">18:00<br>HRS.<br>-</div>
+        </div>
+
+        <!-- Tarjeta 3: Lugar -->
+        <!-- Tarjeta 3: Lugar -->
+<div class="info-card">
+    
+    <div class="icon-box">
+        <img src="img/d3.png" alt="Lugar">
+    </div>
+
+    <h3>LA MANSIÓN DEL ROCK</h3>
+    <p class="sub-label">Lugar del Evento</p>
+
+    <!-- Botón separado (fuera de detail-tag) -->
+    <a href="https://maps.app.goo.gl/kVUtPAM6BJwm9s8G6"
+       class="map-btn"
+       target="_blank">
+       👉🏻📍 PAPA GEORGE
+    </a>
+
+</div>
+    </div>
+</section>
+</div>
+<section class="invitacion">
+  <div class="overlay"></div>
+
+  <div class="contenido">
+    <p>
+      Con la bendición de Dios y el amor infinito de mi familia quiero invitarte a ser
+      parte de una noche soñada, donde la música, la emoción y los recuerdos serán protagonistas.
+    </p>
+
+    <div class="firma"><img src="img/firma.png"></div>
+  </div>
+
+  <!-- Espacio para la forma inferior -->
+  <div class="forma-inferior">
+    <!-- Aquí luego puedes colocar tu imagen -->
+    <!-- <img src="forma.png" alt=""> -->
+  </div>
+</section>
+<div id="itinerario">
+<section class="main-grid">
+
+    <div class="box-media media1">
+        <img src="img/5.png" alt="Artista">
+    </div>
+
+    <div class="box-content content1 bg-wine">
+
+    <h2 class="title-itinerario">ITINERARIO</h2>
+
+    <div class="schedule-container">
+
+        <div class="schedule-item">
+            <span class="hour">18:00</span>
+            <span class="line"></span>
+            <span class="desc">RECEPCIÓN</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">18:10</span>
+            <span class="line"></span>
+            <span class="desc">DJ INVITADO</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">19:30</span>
+            <span class="line"></span>
+            <span class="desc">MÚSICA EN VIVO LA MUSSA</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">20:30</span>
+            <span class="line"></span>
+            <span class="desc">MAIN EVENT</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">20:45</span>
+            <span class="line"></span>
+            <span class="desc">PINK SLIP</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">21:15</span>
+            <span class="line"></span>
+            <span class="desc">GRUPO SORPRESA</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">21:45</span>
+            <span class="line"></span>
+            <span class="desc">DJ INVITADO</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">22:00</span>
+            <span class="line"></span>
+            <span class="desc">SHOW DE BARTENDER</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">22:15</span>
+            <span class="line"></span>
+            <span class="desc">DJ ALDO</span>
+        </div>
+
+        <div class="schedule-item">
+            <span class="hour">00:45</span>
+            <span class="line"></span>
+            <span class="desc">DESPEDIDA</span>
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="box-content content2 bg-wine">
+        <a href="https://open.spotify.com/playlist/6nWVTGPBXSI1lobgeBVn4d?si=SqQ1M9ymTz2glBBV6Jcj1g&pi=EGnE-KrQQc--Z" target="_blank"><div class="playlist-wrapper scale-in">
+            <img src="img/spotify.png" alt="Albums" class="album-grid">
+            <div class="spotify-bar"></div>
+        </div></a>
+        <h2 class="title-songs fade-in"><b>MIS CANCIONES FAVORITAS</b></h2>
+        <p class="subtitle fade-in">
+            Quiero compartir contigo las canciones que me acompañaron desde mi infancia hasta hoy.
+        </p>
+    </div>
+
+    <div class="box-media media2">
+        <img src="img/6.png" alt="Detalle">
+    </div>
+
+</section>
+</div>
+<div id="asistencia">
+<section class="confirmacion">
+    <div class="confirmacion-contenido">
+        <h2>CONFIRMA TU ASISTENCIA</h2>
+        <p>
+            Tu presencia será el toque perfecto que hará de este día un momento inolvidable.
+            Por favor confirmar tu asistencia hasta el 5 de marzo de 2026.
+        </p>
+
+        <a href="https://wa.link/dl3v1b" class="btn-confirmar" target="_blank">
+            Confirma aquí
+        </a><br><br>
+        <p>
+            Gracias por acompañarme en este capítulo de mi vida.
+        </p>
+    </div>
+</section>
+</div>
+<section class="frase-hero">
+    <div class="overlay"></div>
+
+    <div class="frase-contenido">
+        <p class="frase">
+            “Nuestro futuro depende de como vemos nuestro pasado”
+        </p>
+        <h3 class="autor">GUSTAVO CERATI</h3>
+    </div>
+</section>
+<section class="countdown-section">
+    <h2 style="font-weight: 600;" class="countdown-title">Save the date</h2>
+
+    <div class="countdown" id="countdown">
+        <div class="time-box">
+            <span id="days">00</span>
+            <p>Días</p>
+        </div>
+        <div class="time-box">
+            <span id="hours">00</span>
+            <p>Horas</p>
+        </div>
+        <div class="time-box">
+            <span id="minutes">00</span>
+            <p>Minutos</p>
+        </div>
+        <div class="time-box">
+            <span id="seconds">00</span>
+            <p>Segundos</p>
+        </div>
+    </div>
+</section>
+<script>
+    const eventDate = new Date("March 7, 2026 00:00:00").getTime();
+
+    const countdownFunction = setInterval(() => {
+        const now = new Date().getTime();
+        const distance = eventDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = String(days).padStart(2, '0');
+        document.getElementById("hours").innerHTML = String(hours).padStart(2, '0');
+        document.getElementById("minutes").innerHTML = String(minutes).padStart(2, '0');
+        document.getElementById("seconds").innerHTML = String(seconds).padStart(2, '0');
+
+        if (distance < 0) {
+            clearInterval(countdownFunction);
+            document.getElementById("countdown").innerHTML = "¡El gran día llegó!";
+        }
+    }, 1000);
+</script>
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Music Night by Leira</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
